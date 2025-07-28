@@ -1,6 +1,11 @@
 # 안전한 예시 (.env에서 불러오기)
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
+import openai
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 import streamlit as st
 from langchain_community.document_loaders import PyPDFLoader
