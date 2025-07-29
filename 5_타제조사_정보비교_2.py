@@ -1,4 +1,4 @@
-# 📄 pages/5_타제조사_정보비교.py
+# 📄 pages/5_타제조사_정보비교.py 최종
 import os
 import streamlit as st
 from dotenv import load_dotenv
