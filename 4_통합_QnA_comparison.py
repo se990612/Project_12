@@ -14,8 +14,8 @@ load_dotenv()
 st.set_page_config(page_title="📘 Claude & GPT 차량 질의응답", layout="wide")
 st.title("📘 Claude & GPT 기반 차량 카탈로그 + 가격표 RAG 통합 질문응답")
 
-ROOT_DIR = "C:/_knudata/hyundaicar_info"
-VECTORSTORE_DIR = "C:/_knudata/vector_db/combined"
+ROOT_DIR = "C:\Users\KDT13\kh0616\project_12\Project_12\hyundaicar_info"
+VECTORSTORE_DIR = "C:\Users\KDT13\kh0616\project_12\Project_12\vector_db/combined"
 
 if not os.getenv("ANTHROPIC_API_KEY") or not os.getenv("OPENAI_API_KEY"):
     st.error("❌ .env에 ANTHROPIC_API_KEY 또는 OPENAI_API_KEY가 누락되어 있습니다.")
